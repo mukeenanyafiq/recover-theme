@@ -10,6 +10,13 @@ No worries, all things considered
 There are some downsides though, but I'd probably have to make a PR for it to write these off the list
 - Most track cover image would look blurry when resized to fill up the entire screen
 
+## Manual Installation
+
+1. Open Better Lyrics extension options
+2. Go to **Themes** tab
+3. Click **Install from URL**
+4. Enter: `https://github.com/mukeenanyafiq/recover-theme`
+
 ## Preview
 ![F-R-I-E-N-D-S](/images/1.png)
 ![The Muffin Song (asdfmovie)](/images/2.png)
