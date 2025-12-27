@@ -1,6 +1,7 @@
 # reCover (Theme for Better Lyrics)
 
 > inspired by the Better Lyrics demo video
+
 A theme that literally makes the **entire track cover fills up the entire screen on Full-screen mode** _(by height)_
 
 No worries, all things considered
