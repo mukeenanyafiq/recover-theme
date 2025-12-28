@@ -7,9 +7,6 @@ A theme that literally makes the **entire track cover fills up the entire screen
 No worries, all things considered
 - Video mode will keep its appearances that way, but the title and the creator info would be put on top of the frame
 
-There are some downsides though, but I'd probably have to make a PR for it to write these off the list
-- Most track cover image would look blurry when resized to fill up the entire screen
-
 ## Manual Installation
 
 1. Open Better Lyrics extension options

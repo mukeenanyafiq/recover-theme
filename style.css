@@ -1,7 +1,18 @@
 :root {
     /* Looks too wide with the default value, so
     I shrink it a bit to make it look nicely */
-    --blyrics-fullscreen-panel-size: 60%
+    --blyrics-fullscreen-panel-size: 60%;
+
+    /* Made a slight change to the extension code
+    to make this property possible */
+    --ytmusic-album-art-img-size: 1280;
+
+    --yt-album-size: 500px;
+}
+
+ytmusic-player-page:not([is-mweb-modernization-enabled]):not([is-mweb-modernization-enabled]):not([video-mode]) #player.ytmusic-player-page {
+    max-width: var(--yt-album-size) !important;
+    overflow: hidden;
 }
 
 /* Makes the track cover fills up the entire screen height */
@@ -38,8 +49,8 @@ ytmusic-player-page:not([is-mweb-modernization-enabled])[player-fullscreened] #b
     position: fixed;
     background-color: rgba(0, 0, 0, .5);
     backdrop-filter: blur(1rem);
-    left: 3rem;
-    top: 3rem;
+    left: 2rem;
+    top: 2rem;
     border-radius: .5rem;
     padding: 1rem 1.25rem;
     justify-content: flex-end;
