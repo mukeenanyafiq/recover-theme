@@ -1,7 +1,7 @@
 :root {
     /* Looks too wide with the default value, so
     I shrink it a bit to make it look nicely */
-    --blyrics-fullscreen-panel-size: 60%;
+    --blyrics-fullscreen-panel-size: 57.5%;
 
     /* Made a slight change to the extension code
     to make this property possible */
@@ -19,8 +19,7 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]):not([is-mweb-modernizat
 ytmusic-player-page:not([is-mweb-modernization-enabled]):not([is-mweb-modernization-enabled]):not([video-mode])[player-fullscreened] #player.ytmusic-player-page {
     position: fixed;
     max-width: none !important;
-    width: 50%;
-    height: 100%;
+    width: 865px;
     background: transparent;
     box-shadow: none;
     z-index: 0;
@@ -28,7 +27,6 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]):not([is-mweb-modernizat
 
 /* Makes the image of the track cover fills the entire element and with a nice opacity gradient */
 ytmusic-player-page:not([is-mweb-modernization-enabled]):not([video-mode])[player-fullscreened] #thumbnail > img {
-    object-fit: cover !important;
     mask-image: linear-gradient(
         to right, 
         rgba(0, 0, 0, 1),
@@ -60,4 +58,11 @@ ytmusic-player-page:not([is-mweb-modernization-enabled])[player-fullscreened] #b
 /* Basically make it left-handed */
 ytmusic-player-page:not([is-mweb-modernization-enabled])[player-fullscreened] #blyrics-song-info > p {
     text-align: left;
+}
+
+/* Selector taken from `ytmusic.css` */
+/* DISABLE THE THING THAT MAKES THE PANEL CENTERS IF THERE'S NO LYRICS */
+ytmusic-player-page[player-fullscreened]:not([video-mode]):not([blyrics-dfs]):has(.blyrics-container[data-no-lyrics="true"]) #main-panel {
+    transform: none;
+    transition: none;
 }
