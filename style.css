@@ -3,10 +3,6 @@
     I shrink it a bit to make it look nicely */
     --blyrics-fullscreen-panel-size: 52vw;
 
-    /* Made a slight change to the extension code
-    to make this property possible */
-    --ytmusic-album-art-img-size: 1280;
-
     --yt-album-fullscreen-size: 100vh;
     --yt-album-size: 500px;
 }
@@ -70,5 +66,9 @@ ytmusic-player-page:not([is-mweb-modernization-enabled])[player-fullscreened] #b
 /* DISABLE THE THING THAT MAKES THE PANEL CENTERS IF THERE'S NO LYRICS */
 ytmusic-player-page[player-fullscreened]:not([video-mode]):not([blyrics-dfs]):has(.blyrics-container[data-no-lyrics="true"]) #main-panel {
     transform: none;
+    transition: none;
+}
+
+ytmusic-player-page[player-fullscreened]:not([video-mode]):not([blyrics-dfs]):has(.blyrics-container[data-no-lyrics="true"]) #player {
     transition: none;
 }
