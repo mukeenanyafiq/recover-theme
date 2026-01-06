@@ -39,7 +39,7 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]):not([video-mode])[playe
 
 /* Puts the track info on top left screen
 (originally was put on the bottom left but it was covered by the player controls so I moved it) */
-ytmusic-player-page:not([is-mweb-modernization-enabled])[player-fullscreened] #blyrics-song-info {
+ytmusic-player-page:not([is-mweb-modernization-enabled])[player-fullscreened]:not([blyrics-dfs]) #blyrics-song-info {
     display: flex;
     flex-direction: column;
     position: fixed;
