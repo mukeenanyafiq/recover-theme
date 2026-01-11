@@ -1,7 +1,8 @@
 :root {
-    /* Looks too wide with the default value, so
-    I shrink it a bit to make it look nicely */
+    /* Looks too wide with the default value, so I shrink it a bit to make it look nicely */
     --blyrics-fullscreen-panel-size: 52vw;
+    /* Make the lyric height a bit shorter since seeing a wrapped background line just makes me feel something else */
+    --blyrics-line-height: 1.25;
 
     --yt-album-fullscreen-size: 100vh;
     --yt-album-size: 500px;
