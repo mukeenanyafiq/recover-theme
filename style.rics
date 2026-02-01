@@ -85,3 +85,7 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]) {
         }
     }
 }
+
+.blyrics--word {
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+}
