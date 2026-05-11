@@ -1,5 +1,5 @@
 # reCover (Full-screen theme for [Better Lyrics](https://github.com/better-lyrics/better-lyrics))
-> inspired by the Better Lyrics demo
+> Inspired by the demo video of Better Lyrics 
 
 A theme that literally makes the **entire track cover fills up the entire screen on Full-screen mode** _(by height)_
 
@@ -14,10 +14,10 @@ No worries, all things considered
 4. Enter: `https://github.com/mukeenanyafiq/recover-theme`
 
 ## Preview
-![F-R-I-E-N-D-S](/images/1.png)
-![The Muffin Song (asdfmovie)](/images/2.png)
-![Unforgettable](/images/3.png)
-![(Video-mode) If LifeStealSMP had a theme song 💀](/images/4.png)
+![Stereo Hearts](/images/1.png)
+![Never Gonna Give You Up](/images/2.png)
+![The Bird Song (on right-side placement)](/images/3.png)
+![(Video-mode) Ravyn Lenae - Love Me Not (Remix) (Feat. Marinez)](/images/4.png)
 
 # License
 MIT

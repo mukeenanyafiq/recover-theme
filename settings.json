@@ -1,0 +1,23 @@
+{
+    "album-cover-placement": {
+        "type": "dropdown",
+        "label": "Which side the album cover should be placed on",
+        "options": {
+            "Left": "left",
+            "Right": "right"
+        },
+        "attribute": "placement",
+        "attrType": "rics",
+        "default": 0
+    },
+    "opacity-after-lyrics": {
+        "type": "slider",
+        "label": "Opacity of the lyric line after it has been sung",
+        "attribute": "recover-opacity-after-line",
+        "attrType": "css",
+        "default": 0.1,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+    }
+}
