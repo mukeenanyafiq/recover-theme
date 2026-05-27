@@ -1,5 +1,6 @@
 {
     "album-cover-placement": {
+        "pos": 0,
         "type": "dropdown",
         "label": "Which side the album cover should be placed on",
         "options": {
@@ -11,13 +12,51 @@
         "default": 0
     },
     "opacity-after-lyrics": {
-        "type": "slider",
+        "pos": 1,
+        "type": "range",
         "label": "Opacity of the lyric line after it has been sung",
         "attribute": "recover-opacity-after-line",
         "attrType": "css",
-        "default": 0.1,
         "min": 0,
         "max": 1,
-        "step": 0.01
+        "step": 0.01,
+        "default": 0.1
+    },
+    "visible-track-info": {
+        "pos": 2,
+        "type": "toggle",
+        "label": "Show floating track info",
+        "attribute": "recover-visible-track-info",
+        "attrType": "css",
+        "onValue": "visible",
+        "offValue": "hidden",
+        "default": true
+    },
+    "opacity-bg-track-info": {
+        "pos": 3,
+        "type": "range",
+        "label": "Opacity of the track info's background",
+        "attribute": "recover-opacity-bg-track-info",
+        "attrType": "css",
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "default": 0.5
+    },
+    "color-bg-track-info": {
+        "pos": 4,
+        "type": "color",
+        "label": "Color of the track info's background",
+        "attribute": "recover-color-bg-track-info",
+        "attrType": "css",
+        "default": "#000"
+    },
+    "blur-backdrop-track-info": {
+        "pos": 5,
+        "type": "textfield",
+        "label": "Blur strength of the track info's backdrop",
+        "attribute": "recover-blur-backdrop-track-info",
+        "attrType": "css",
+        "default": "1rem"
     }
 }

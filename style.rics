@@ -16,6 +16,10 @@ $placement: left; // Placement of the album cover; left | right
 
     /* reCover based variables */
     --recover-opacity-after-line: .1; // The opacity of the already sung lyrics after the line
+    --recover-visible-track-info: visible; // The visibility type of the track info
+    --recover-opacity-bg-track-info: .5; // The opacity of the track info's background
+    --recover-color-bg-track-info: #000; // The color of the track info's background
+    --recover-blur-backdrop-track-info: 1rem; // The blur strength of the track info's backdrop
 }
 
 /* Core of the album art */
@@ -106,8 +110,9 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]) {
         display: none;
         flex-direction: column;
         position: fixed;
-        background-color: rgba(0, 0, 0, .5);
-        backdrop-filter: blur(1rem);
+        visibility: var(--recover-visible-track-info);
+        background-color: rgb(var(--recover-color-bg-track-info) / var(--recover-opacity-bg-track-info));
+        backdrop-filter: blur(var(--recover-blur-backdrop-track-info));
         left: if($placement == left, 2rem, unset);
         right: if($placement == right, 2rem, unset);
         top: 2rem;
