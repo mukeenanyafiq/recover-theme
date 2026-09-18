@@ -6,6 +6,13 @@ A theme that literally makes the **entire track cover fills up the entire screen
 No worries, all things considered
 - Video mode will keep its appearances that way, but the title and the creator info would be put on top of the frame
 
+## Features
+- Changeable placement of the album cover!
+- (Optional for aesthetics) Entire YTM layout can turn into glassy
+- Cool-looking album art which gets transparent on the very edge
+- Track info moved to the top left or right depending on the album cover placement
+- Uses RICS, which makes the code very organizable (truly) for if one were to change theme code
+
 ## Manual Installation
 
 1. Open Better Lyrics extension options
