@@ -192,7 +192,7 @@ ytmusic-player-page:not([is-mweb-modernization-enabled]) {
 
     /* Add a shadow to each lyric line so it's more readable */
     .blyrics--word {
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .15);
+        text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .15);
     }
     .blyrics--word.blyrics-word-highlight {
         text-shadow: none;
